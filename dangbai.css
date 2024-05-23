@@ -1,0 +1,109 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 'Poppins', sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:url('image/img6.png') no-repeat;
+    min-height: 100vh;
+   /* background: #e0b3bc;*/
+    
+}
+header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:99;
+}
+h2 {
+    color:#011027;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-------------dang nhap dang ki---------------------*/
+
+.wrapper {
+    position:relative;
+    width:650px;
+    height:550px;   
+    background:transparent;
+    border:2px solid rgb(0, 0, 156);
+    border-radius: 20px;
+    box-shadow:0 0 30px rgba(85, 218, 118, 0.5);
+    display:flex;
+    align-items: center;
+    text-align:center;   
+}
+
+.wrapper .form-box {
+    width:100%;
+    /*padding:40px;*/
+}
+
+.form-box h2 {
+    top:10px;
+    height:10px;
+    font-size: 2em;  
+    color:rgb(0, 0, 156);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.input-box{
+    position:relative;
+    width:100%;
+    height:30px;
+    margin:30px 0;
+}
+.input-box label{
+    width:1%;
+    top:50%;
+    left:500px;
+    font-size: 1.3em;
+    color:rgb(0, 0, 156);
+    font-weight: 500;
+}
+.input-box input {
+    width:70%;
+    height:25px;
+    color:rgb(0, 0, 156);
+    background:transparent;
+    font-size: 1em;
+    font-weight: 50;
+    padding:0 35px 0 5px;
+    
+}
+.btnLogin-popup {
+    width:130px;
+    height:50px;
+    background:transparent;
+    border:2px solid rgb(0, 0, 156);
+    outline:none;
+    border-radius: 6px;
+    cursor:pointer;
+    font-size:1.5em;
+    color:rgb(0, 0, 156);
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.btnLogin-popup:hover{
+    background:rgb(195, 195, 234);
+    color:rgb(0, 0, 156);
+}
+
+
+
+
+
+
+

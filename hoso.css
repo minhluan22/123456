@@ -1,0 +1,158 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 'Poppins', sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:url('image/img9.png') no-repeat;
+    min-height: 100vh;
+    /*background: #e0b3bc;*/
+    
+}
+#wrapper {
+    /* Kích thước màn hình là 1280 x 720 */
+    width: 100%;
+    height: 100vh;
+}
+#header {
+    width: 100%;
+    padding:0px 30px;
+    margin-top:33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#8b8be7;
+    background-image :url("image/img10.jpg");
+}
+#logo{
+    font-size: 3em;
+    color:blue;
+    /*user-select: none;*/
+}
+
+#menu a  {
+    position:relative;
+    font-size: 1.5em;
+    color:#0162d9;
+    text-decoration: none;
+    font-weight: 1000;
+    margin-left:30px;
+}
+
+
+#menu a::after {
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:100%;
+    height:3px;
+    background:#0162d9;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+#menu a:hover::after {
+    transform-origin: left;
+    transform:scaleX(1);
+}
+#menu .btnLogin-popup{
+    width:10px;
+    height:100px;
+    background:transparent;
+    border:2px solid #0162d9;
+    outline:none;
+    border-radius: 10px;
+    cursor:pointer;
+    font-size:2em;
+    color:#0162d9;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+#menu .btnLogin-popup:hover{
+    background:#0a2f9f;
+    color:#000000;
+}
+/*-------------dang nhap dang ki---------------------*/
+
+.wrap {
+    position:relative;
+    width:600px;
+    height:450px;   
+    background:transparent;
+    border:2px solid #005bed;
+    border-radius: 20px;
+    box-shadow:0 0 30px #005bed;
+    display:flex;
+    align-items: center;
+    text-align:center;   
+}
+
+.wrap .form-box {
+    width:100%;
+    /*padding:40px;*/
+}
+
+.form-box h2 {
+    top:10px;
+    height:10px;
+    font-size: 2em;  
+    color:#005bed;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.input-box{
+    position:relative;
+    width:100%;
+    height:30px;
+    margin:30px 0;
+}
+.input-box label{
+    width:1%;
+    top:50%;
+    left:500px;
+    font-size: 1.3em;
+    color:#005bed;
+    font-weight: 500;
+}
+.input-box input {
+    width:70%;
+    height:25px;
+    color:#000000;
+    background:transparent;
+    font-size: 1em;
+    font-weight: 50;
+    padding:0 35px 0 5px;
+    
+}
+.btnLogin-popup {
+    width:130px;
+    height:50px;
+    background:transparent;
+    border:2px solid #005bed;
+    outline:none;
+    border-radius: 6px;
+    cursor:pointer;
+    font-size:1.5em;
+    color:#005bed;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.btnLogin-popup:hover{
+    background:#e6e6e6;
+    color:#000000;
+}
+
+
+
+
+
+
+
